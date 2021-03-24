@@ -1,0 +1,163 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar {
+    background-color: #fff !important;
+}
+#navbar a {
+    color: gray !important;
+    height: 100%;
+}
+.navbar-nav > a {
+    margin-right: 2rem;
+}
+.banner__section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.973)), url('CORPS.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 12rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.banner__section > h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+}
+.banner__section > .button {
+    margin-top: 2rem;
+    background: green;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+}
+.banner__section > .button:hover {
+    color: #fff;
+}
+.about__imo {
+    padding: 3rem;
+    text-align: center;
+}
+.about__imo > h3,
+.officials > h3 {
+    font-weight: 800;
+    color: #aa2b1d;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.about__imo > p {
+    max-width: 1000px;
+    margin: 20px auto;
+    line-height: 30px;
+}
+.officials {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.officials .img {
+    border: 1px solid #000;
+    width: 40%;
+    height: 140px;
+    margin: 2rem auto;
+    border-radius: 60%;
+    /* margin: 3rem 0; */
+}
+.officials h5 {
+    font-weight: 600;
+    line-height: 5px;
+}
+.directions {
+    background-color: #aa2b1d;
+    padding: 4rem 0;
+}
+.directions h3 {
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.directions ul li {
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+.directions ul li:hover {
+    transform: scale(1.03);
+}
+.footer {
+    text-align: center;
+    color: gray;
+    padding: 2rem 0;
+    line-height: 10px;
+}
+.gallery {
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.gallery h3 {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.gallery img {
+    transition: transform 100ms ease-in;
+}
+.gallery img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+/* Media Screen Query */
+@media only screen and (max-width: 769px) {
+    .banner__section {
+        padding: 5rem 0;
+        height: 50vh;
+    }
+    .banner__section > h1 {
+        font-size: 2rem;
+    }
+    .banner__section > .button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    .navbar-brand img {
+        width: 120px;
+    }
+    .footer {
+        line-height: 22px;
+        padding: 10px;
+    }
+    .officials h5 {
+        line-height: 20px;
+    }
+    .about__imo > p {
+        width: 100%;
+        margin: 20px auto;
+        line-height: 30px;
+    }
+    .about__imo {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+    .about__imo h3,
+    .officials h3,
+    .directions h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .banner__section > h1 {
+        font-size: 2rem;
+    }
+    .banner__section {
+        padding: 12rem 0;
+        height: 50vh;
+    }
+    
+}
